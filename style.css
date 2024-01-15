@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: rgb(174, 174, 236);
+  border: 10px solid rgb(0, 0, 0);
+}
+
+.content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* top_section */
+
+.top_section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.top_section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top_section h5 {
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.image_section {
+  height: 450px;
+  width: 450px;
+  background-image: url(image/apj.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+.image {
+  height: 450px;
+  width: 450px;
+  background-image: url(image/apj.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+/* about_section */
+
+.about_section {
+  margin-top: 2rem;
+}
+
+.about_section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about_section p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: rgb(25, 25, 25);
+  text-align: justify;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/* biography_section */
+
+.biography_section {
+  margin: 50px 0;
+}
+
+.biography_section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.biography_section ul {
+  font-size: 1.3rem;
+  margin-left: 100px;
+  text-align: justify;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+/* footer */
+footer {
+  margin: 50px 0;
+  text-align: end;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
